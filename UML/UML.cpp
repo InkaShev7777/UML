@@ -1,10 +1,9 @@
-﻿// UML.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
-
+﻿#include <iostream>
+#include"Currency.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    Currency c;
+    c.getCuntry();
+    
 }
 
